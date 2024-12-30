@@ -2,7 +2,7 @@
   "name": "garage-share",
   "version": "0.1.0",
   "private": true,
-  "home": ".",
+  "homepage": "https://jacm101984.github.io/garsh1",
   "dependencies": {
     "framer-motion": "^11.15.0",
     "google-map-react": "^2.2.1",
