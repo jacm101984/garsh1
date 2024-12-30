@@ -234,7 +234,7 @@ const Home = ({ spaces, onFavorite, favorites, onReserve, reservations }) => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="h-96 w-full mb-6">
           <GoogleMapReact
-            bootstrapURLKeys={{ key: 'YOUR_GOOGLE_MAPS_API_KEY' }}
+            bootstrapURLKeys={{ key: 'AIzaSyDjkYGcyFt2uHKsq31_j3YgnznpuIJAbYg' }}
             center={mapCenter}
             zoom={mapZoom}
             onChange={({ center, zoom }) => {
