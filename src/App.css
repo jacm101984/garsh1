@@ -1,0 +1,70 @@
+/* Importación base de Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo Global */
+body {
+  @apply bg-gray-100 text-gray-700 font-sans antialiased;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+/* Navbar */
+.navbar {
+  @apply bg-gradient-to-r from-blue-500 to-blue-700 text-white shadow-lg p-4 sticky top-0 z-50;
+}
+
+/* Footer */
+.footer {
+  @apply bg-gray-800 text-white text-center p-4 mt-8;
+}
+
+/* Filtros */
+.filters {
+  @apply flex flex-col sm:flex-row justify-between items-center mb-6 bg-gray-50 p-4 rounded-lg shadow-sm;
+}
+
+.filters input {
+  @apply border rounded p-2 w-full max-w-xs mb-4 sm:mb-0;
+}
+
+.filters span {
+  @apply text-gray-600;
+}
+
+.filters .price-range {
+  @apply w-40;
+}
+
+/* Tarjetas de Espacios */
+.space-card {
+  @apply border rounded-lg shadow-md cursor-pointer hover:shadow-lg transition overflow-hidden;
+}
+
+.space-card img {
+  @apply w-full h-48 object-cover;
+}
+
+.space-card .details {
+  @apply p-4;
+}
+
+.space-card h2 {
+  @apply font-bold text-lg;
+}
+
+.space-card p {
+  @apply text-gray-500;
+}
+
+.space-card .price {
+  @apply text-blue-500 font-bold;
+}
+
+/* Grillas */
+.grid-cols {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6;
+}
